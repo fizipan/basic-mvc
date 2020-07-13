@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    min-height: 600px;
+}
+
+.nav header {
+    width: 100%;
+    height: 300px;
+    background-color: #007dd1;
+    position: relative;
+}
+
+.nav header a {
+    width: 85px;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    right: 40px;
+    top: 20px;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav header a:hover {
+    width: 85px;
+    background-color: #FFCA4F;
+    position: absolute;
+    border-radius: 20px;
+    right: 40px;
+    top: 20px;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+.nav header h2 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 50px;
+    left: -5px;
+}
+
+.nav header img.logo17 {
+    width: 90px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+.nav header img.buku {
+    width: 90px;
+    position: absolute;
+    top: 45px;
+    right: 400px;
+}
+
+.nav .card {
+    position: absolute;
+    width: 480px;
+    top: 200px;
+    left: 430px;
+    z-index: 1000;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav .card .card-title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav .card .card-subtitle {
+    font-size: 14px;
+    opacity: .7;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: #eaeaea;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+footer p {
+    text-align: center;
+
+}
